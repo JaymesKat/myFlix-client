@@ -48,6 +48,7 @@ export const MainView = () => {
 
   console.log("MOVIES", movies)
 
+
   if (!user) {
     return (
       <>

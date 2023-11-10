@@ -74,12 +74,12 @@ export const MainView = () => {
 
   return (
     <div>
-      <button>
+      <button
         onClick={() => {
           setUser(null);
           setToken(null);
           localStorage.clear();
-        }}
+        }}>
         Logout
       </button>
       {movies.map((movie) => (
